@@ -1,17 +1,34 @@
 <?php
 
 abstract class ContohAbstract {
-  abstract public function data() :void; 
+  abstract public function methodPertama() :void;
+  abstract public function methodKedua() :void;
 }
 
 class ContohTurunanAbstract extends ContohAbstract {
-  public function data() :void {
-    echo "Hello";
+  
+  public function methodPertama() :void {
+    echo "Method Pertama";
   }
+
+  public function methodKedua() :void {
+    echo "Method Kedua";
+  }
+
 }
+
+# class ContohTurunanAbstractTidakLengkap extends ContohAbstract {
+#   public function methodPertama() :void {
+#     echo "Method Kedua";
+#   }
+# }
 
 # $contohAbstract = new ContohAbstract();
 # $contohAbstract->data();
 
 $contohClassAbstract = new ContohTurunanAbstract();
-$contohClassAbstract->data();
+$contohClassAbstract->methodPertama();
+$contohClassAbstract->methodKedua();
+
+# $contohClassAbstractTidakLengkap = new ConthoTurunanAbstractTidakLengkap();
+# $contohClassAbstractTidakLengkap->methodPertama();
