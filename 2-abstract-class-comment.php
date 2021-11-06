@@ -2,7 +2,7 @@
 /**
  * @package Object-Oriented pada PHP
  * @author @EmptyWork <https://github.com/EmptyWork>
- * @version 0.0.2b - tambah: versi abstract - versi komen
+ * @version 0.0.2f - ubah: versi abstract - versi komen - kelas turunan tidak lengkap; error
  * =================================
  * 
  * Inisialisasi sebuah Abstract class
@@ -31,7 +31,9 @@ abstract class ContohAbstract {
    * -----------------------------
    * @return void
    */
-  abstract public function data() :void; 
+  abstract public function methodPertama() :void; 
+  abstract public function methodKedua() :void;
+
 }
 
 /**
@@ -44,10 +46,26 @@ class ContohTurunanAbstract extends ContohAbstract {
    * Menginisialisasi proses 'override' berdasarkan method
    * turunan dari ContohAbstract class.
    */
-  public function data() :void {
-    echo "Hello";
+  public function methodPertama() :void {
+    echo "Metho Pertama";
+  }
+  
+  public function methodKedua() :void {
+    echo "Method Kedua";
   }
 }
+
+/**
+ * Pada Contoh dibawah ContohTurunanTidakLengkap class
+ * menggunakan ContohAbstract class sebagai parent;
+ * namun tidak semua method di 'override' oleh class tersebut
+ */
+
+# class ContohTurunanAbstractTidakLengkap extends ContohAbstract {
+#   public function methodPertama() :void {
+#     echo "Method Kedua";
+#   }
+# }
 
 /**
  * Menginisialisasi sebuah objek baru dengan menggunakan
@@ -55,7 +73,10 @@ class ContohTurunanAbstract extends ContohAbstract {
  * error pada saat di jalankan.
  */
 # $contohAbstract = new ContohAbstract();
-# $contohAbstract->data();
+# $contohAbstract->methodPertama();
 
 $contohClassAbstract = new ContohTurunanAbstract();
-$contohClassAbstract->data();
+$contohClassAbstract->methodPertama();
+
+# $contohClassAbstractTidakLengkap = new ConthoTurunanAbstractTidakLengkap();
+# $contohClassAbstractTidakLengkap->methodPertama();
