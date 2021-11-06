@@ -19,12 +19,19 @@ Source code untuk dasar-dasar tentang Object-Oriented pada PHP. Adapun materi ya
   - Abstract Class, Turunan Class
     - Abstract Method, Override Method
     - Inisialisasi Abstract Class
+- <a href="./3-pengenalan-interface.php">Pengenalan Interface [3-pengenalan-interface.php]</a>
+  - Interface, Implements Interface
+    - Inisialisasi Interface
+    - Implements Interface
+      - Extend Abstract Class
+    - Method, Override Method
 
 ## Daftar File dan File dengan Komen
 |File|Komen File|
 |---|---|
 |<a href="./1-pengenalan-class.php">1-pengenalan-class.php</a>|<a href="./1-pengenalan-class-comment.php">1-pengenalan-class-comment.php</a>|
-|<a href="./2-abstract-class.php">2-abstract-class.php</a>|<a href="./2-abstract-class-comment.php">2-abstract-class.php-comment</a>|
+|<a href="./2-abstract-class.php">2-abstract-class.php</a>|<a href="./2-abstract-class-comment.php">2-abstract-class-comment.php</a>|
+|<a href="./3-pengenalan-interface.php">3-pengenalan-interface.php</a>|<a href="./3-pengenalan-interface-comment.php">3-pengenalan-interface-comment.php</a>|
 
 Didukung oleh:
 <a href="https://filkom.ukim.ac.id">Filkom UKIM</a> | <a href="https://ukim.ac.id">UKIM</a>
