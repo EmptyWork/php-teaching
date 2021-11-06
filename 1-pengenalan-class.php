@@ -1,6 +1,6 @@
 <?php
 
-// abstarct ContohClass {
+# abstarct ContohClass {
 class ContohClass {
   public $dataPublic;
   private $dataPrivate;
@@ -26,12 +26,12 @@ class ContohClass {
     echo "Fungsi Final\n";
   }
 
-  // abstract public function fungsiAbstrak();
+  # abstract public function fungsiAbstrak();
 }
 
 ContohClass::fungsiStatikPublik();
 $data = new ContohClass();
 $data->fungsiPublik();
-// $data->fungsiPrivate();
-// $data->fungsiProtected();
+# $data->fungsiPrivate();
+# $data->fungsiProtected();
 $data->fungsiFinal();
