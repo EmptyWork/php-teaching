@@ -2,19 +2,20 @@
 /**
  * @package Object-Oriented pada PHP
  * @author @EmptyWork <https://github.com/EmptyWork>
- * @version 0.0.2f - ubah: versi abstract - versi komen - kelas turunan tidak lengkap; error
+ * @version 0.0.2g - ubah: mengstandarisasi komen-komen pada file
  * =================================
+ * 
+ * ABSTRACT CLASS merupakan sebuah class yang tidak
+ * bisa di inisialisasi secara langsung, atau bisa
+ * dijelaskan sebagai sebuah wireframe untuk class lain.
+ * 
+ * *********************************
  * 
  * Inisialisasi sebuah Abstract class
  * Dengan menggunakan syntax dibawah
- * /////////////////////////////////
- * Abstract class merupakan sebuah class yang tidak
- * bisa di inisialisasi secara langsung, atau bisa
- * dijelaskan sebagai sebuah wireframe untuk class lain.
  * ---------------------------------
  * @access public
  * abstract class NamaClass {
- * 
  * 
  * }
  */
@@ -22,13 +23,15 @@
 abstract class ContohAbstract {
   /**
    * Menginisialisasi sebuah Abstract method
-   * /////////////////////////////
+   * =============================
+   * 
    * Mirip dengan penggunaan Abstract pada class,
    * Sebuah Method yang abstract juga tidak bisa
    * di panggil secara langsung oleh class turunan
    * tanpa 'mengoverride' method tersebut pada
    * class turunan (Children class).
    * -----------------------------
+   * @access public
    * @return void
    */
   abstract public function methodPertama() :void; 

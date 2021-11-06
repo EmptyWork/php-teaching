@@ -3,15 +3,20 @@
 /**
  * @package Object-Oriented pada PHP
  * @author @EmptyWork <https://github.com/EmptyWork>
- * @version 0.0.1b - tambah: versi komen
+ * @version 0.0.2g - ubah: mengstandarisasi komen-komen pada file
  * =================================
+ * 
+ * CLASS merupakan kerangka yang bisa digunakan
+ * untuk membuat sebuah objek baru, dengan memanggil
+ * class itu menggunakan keyword 'new'
+ * 
+ * *********************************
  * 
  * Inisialisasi sebuah class
  * Dengan menggunakan syntax dibawah
  * ---------------------------------
  * @access public
  * class NamaClass {
- * 
  * 
  * }
  */
