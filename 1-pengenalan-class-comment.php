@@ -21,7 +21,7 @@
  * }
  */
 
-# abstarct ContohClass {
+# abstract ContohClass {
 class ContohClass {
   /**
    * Properties atau variables

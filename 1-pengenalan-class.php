@@ -1,6 +1,6 @@
 <?php
 
-# abstarct ContohClass {
+# abstract ContohClass {
 class ContohClass {
   public $dataPublic;
   private $dataPrivate;
