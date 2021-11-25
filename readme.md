@@ -1,8 +1,6 @@
 # Object-Oriented pada PHP
 
-<a href="https://emptywork.netlify.app">
-  <img src="./assets/active.svg" width=100>
-</a>
+<img src="./assets/php-teaching-header.jpg" alt="Object-Oriented Pada PHP"/>
 
 Source code untuk dasar-dasar tentang Object-Oriented pada PHP. Adapun materi yang termuat pada repository ini antara lain:
 - <a href="./src/1-pengenalan-class.php">Pengenalan Class [1-pengenalan-class.php]</a>
@@ -39,3 +37,7 @@ Source code untuk dasar-dasar tentang Object-Oriented pada PHP. Adapun materi ya
 
 Didukung oleh:
 <a href="https://filkom.ukim.ac.id">Filkom UKIM</a> | <a href="https://ukim.ac.id">UKIM</a>
+
+<a href="https://emptywork.netlify.app">
+  <img src="./assets/active.svg" width=100>
+</a>
