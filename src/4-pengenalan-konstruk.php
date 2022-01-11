@@ -1,6 +1,6 @@
 <?php
 
-class ContohClass {
+class ContohClassKonstruk {
   public $data1;
   public $data2;
   public function __construct($__data1, $__data2)
@@ -19,7 +19,7 @@ class ContohClass {
   }
 }
 
-$CONTOHCLASS = new ContohClass('satu', 2);
+$CONTOHCLASS = new ContohClassKonstruk('satu', 2);
 echo "+++++++++++++++++++++++++++++++++++++\n";
 sleep(5);
 for ($i=0; $i < 5; $i++) { 

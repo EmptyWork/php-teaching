@@ -18,7 +18,7 @@
  * }
  */
 
-class ContohClass {
+class ContohClassKonstruk {
   public $data1;
   public $data2;
   /**
@@ -50,7 +50,7 @@ class ContohClass {
   }
 }
 
-$CONTOHCLASS = new ContohClass('satu', 2);
+$CONTOHCLASS = new ContohClassKonstruk('satu', 2);
 
 echo "+++++++++++++++++++++++++++++++++++++\n";
 
