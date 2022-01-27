@@ -1,4 +1,5 @@
 <?php
+echo "Copyright (C) 2021  EmptyWork\n";
 
 abstract class ContohAbstract {
   abstract public function methodPertama() :void;
