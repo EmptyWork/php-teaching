@@ -1,4 +1,6 @@
 <?php
+echo "Copyright (C) 2021  EmptyWork\n";
+
 interface Template {
   public function methodPertama();
   public function methodKedua();
