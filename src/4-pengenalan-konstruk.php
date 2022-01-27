@@ -1,4 +1,5 @@
 <?php
+echo "Copyright (C) 2021  EmptyWork\n";
 
 class ContohClassKonstruk {
   public $data1;
